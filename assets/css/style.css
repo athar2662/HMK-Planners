@@ -1,0 +1,46 @@
+:root {
+  --leftboundary: 10%;
+  --rightboundary: 10%;
+  --sizeOfCards: 35rem;
+}
+.nicone {
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.actv {
+  text-decoration: underline !important;
+  color: #ff3d55 !important;
+  text-decoration-color: #ff3d55 !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px;
+}
+/* hero section css  */
+.bg-overlay {
+  position: absolute;
+  background: rgba(26, 15, 12, 0.6);
+  width: 100% !important;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-light.scrolled {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light.scrolled,
+.navbar-light.scrolled .navbar-brand {
+  color: rgb(0, 0, 0) !important;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
