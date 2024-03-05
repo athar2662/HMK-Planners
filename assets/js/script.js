@@ -1,3 +1,4 @@
+// select all things here
 const navLinks = document.querySelectorAll(".nav-link");
 const btn = document.querySelector(".lets-plan-togeather");
 const modal = document.getElementById("qrCodeModel");
