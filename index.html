@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="./assets/order.png" />
-        <title>HMK Event Planner</title>
+        <title>HMK Event Planing</title>
 
         <!-- niccone fonts  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,17 +47,27 @@
             <div class="container">
                 <div class="row py-3">
                     <div class="col-md-8">
+                        <span class="pe-4">
+                            <a
+                                class="text-decoration-none text-white"
+                                href="tell:+231234567899"
+                                ><i class="pe-1 fa-solid fa-phone"></i> (+23)123
+                                456 7899</a
+                            >
+                        </span>
                         <span class="pe-4"
-                            ><i class="pe-1 fa-solid fa-phone"></i>(+23)123 456
-                            7899</span
+                            ><a
+                                class="text-decoration-none text-white"
+                                href="mailto:Hmteventplanning@gmail.com"
+                                ><i class="pe-1 fa-solid fa-envelope"></i>
+                                Hmteventplanning@gmail.com</a
+                            ></span
                         >
                         <span class="pe-4"
-                            ><i class="pe-1 fa-solid fa-envelope"></i
-                            >contact@gmail.com</span
-                        >
-                        <span class="pe-4"
-                            ><i class="pe-1 fa-solid fa-clock"></i>Mon – Fri
-                            9.00 am – 6.00 pm</span
+                            ><span
+                                ><i class="pe-1 fa-solid fa-clock"></i> Mon –
+                                Fri 9.00 am – 6.00 pm</span
+                            ></span
                         >
                     </div>
                     <div class="col-md-4 text-end">
@@ -91,7 +101,7 @@
                             class="navbar-brand"
                             style="font-size: 25px; font-weight: bold"
                             href="#"
-                            >HMK Event Planner</a
+                            >HMK Event Planing</a
                         >
                         <button
                             class="navbar-toggler"
@@ -127,11 +137,10 @@
         </div>
 
         <!-- hero  -->
-
         <div class="carousel-inner mb-5">
             <div class="carousel-item active">
                 <img
-                    src="./assets/hero-section2.jpg"
+                    src="./assets/hero-section4.jpg"
                     class="w-100 d-block"
                     alt="..."
                 />
@@ -141,7 +150,7 @@
                     >
                         <h1 style="font-size: 4rem">
                             WELOCOME TO
-                            <span class="text-primary">HMK EVENT PLANNER</span>
+                            <span class="text-primary">HMK EVENT PLANING</span>
                         </h1>
                         <p class="fs-4 w-75 m-auto">
                             we specialize in creating unforgettable moments for
@@ -174,7 +183,7 @@
             <h3 class="text-center nicone text-primary">What We Provide</h3>
             <h2 class="text-center fs-1 pb-3">OUR SERVICES</h2>
             <div class="cards owl-carousel">
-                <div class="card p-2">
+                <div class="card p-2" style="width: 25rem">
                     <img
                         src="./assets/event.jpeg"
                         class="card-img-top m-lg-auto"
@@ -182,11 +191,14 @@
                         onerror="this.src='./assets/img_not_found.jpeg'"
                     />
                     <div class="card-body">
-                        <h5 class="card-title">Birthday Parties</h5>
+                        <!-- <h5 class="card-title">Birthday Parties</h5> -->
                         <p class="card-text">
-                            As an experienced event planner, we excel at
-                            curating memorable birthday experiences that reflect
-                            the guest of honor's personality and style.
+                            From anniversaries to baby showers, we make every
+                            moment count! Let us plan your special event with
+                            care and creativity. Whether it's a birthday bash or
+                            a gender reveal, we've got the expertise to make it
+                            unforgettable. Trust us to turn your vision into
+                            reality!
                         </p>
                         <a class="btn btn-secondary" href="#about" role="button"
                             >About Us</a
@@ -207,7 +219,7 @@
                             Who We Are
                         </h1>
                         <p style="text-align: justify">
-                            At HMK Event Planner, we specialize in creating
+                            At HMK Event Planing, we specialize in creating
                             unforgettable moments for life's most cherished
                             occasions. With a passion for detail and a
                             commitment to excellence, we thrive on turning
@@ -228,8 +240,7 @@
                             moments you'll cherish forever.
                         </p>
                         <a
-                            class="btn btn-secondary"
-                            href="#MyCards"
+                            class="btn btn-secondary lets-plan-togeather"
                             role="button"
                             >Let's Plan Together</a
                         >
@@ -241,6 +252,47 @@
                             alt="About Image"
                             onerror="this.src='./assets/img_not_found.jpeg'"
                         />
+                    </div>
+                </div>
+            </div>
+
+            <!-- model -->
+            <div class="modal" tabindex="-1" role="dialog" id="qrCodeModel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex justify-content-center">
+                            <h5
+                                class="modal-title"
+                                style="font-size: 2rem; font-weight: bold"
+                            >
+                                Scan Now
+                            </h5>
+                            <!-- <button
+                                type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-label="Close"
+                            >
+                                <span aria-hidden="true">&times;</span>
+                            </button> -->
+                        </div>
+                        <div class="modal-body d-flex justify-content-center">
+                            <img
+                                class="sizeM"
+                                src="./assets/bar-code.jpg"
+                                alt="Barcode"
+                                onerror="this.src='./assets/img_not_found.jpeg'"
+                            />
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button
+                                type="button"
+                                class="btn btn-secondary close px-5 py-2"
+                                data-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -384,7 +436,7 @@
             <div class="bg-secondary text-white p-5">
                 <div class="text-center">
                     <div class="row align-items-center px-5">
-                        <div class="col">
+                        <!-- <div class="col">
                             <h3>850+ Events</h3>
                         </div>
                         <div class="col">
@@ -395,7 +447,7 @@
                         </div>
                         <div class="col">
                             <h3>99% Success</h3>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -500,20 +552,26 @@
                         <div class="col-md-4">
                             <h4 class="mb-5">Contact Information</h4>
                             <p class="pe-4">
-                                <i class="pe-2 fa-solid fa-phone"></i>(+23)123
-                                456 7899
-                            </p>
-                            <p class="pe-4">
-                                <i class="pe-2 fa-solid fa-envelope"></i
-                                ><a
+                                <a
                                     class="text-decoration-none text-white"
-                                    href="mailto:Hmteventplanning@gmail.com"
-                                    >Hmteventplanning@gmail.com</a
+                                    href="#"
+                                    ><i class="pe-2 fa-solid fa-phone"></i>
+                                    (+23)123 456 7899</a
                                 >
                             </p>
                             <p class="pe-4">
-                                <i class="pe-2 fa-solid fa-clock"></i>Mon – Fri
-                                9.00 am – 6.00 pm
+                                <a
+                                    class="text-decoration-none text-white"
+                                    href="mailto:Hmteventplanning@gmail.com"
+                                    ><i class="pe-2 fa-solid fa-envelope"></i>
+                                    Hmteventplanning@gmail.com</a
+                                >
+                            </p>
+                            <p class="pe-4">
+                                <span
+                                    ><i class="pe-2 fa-solid fa-clock"></i> Mon
+                                    – Fri 9.00 am – 6.00 pm</span
+                                >
                             </p>
                             <div>
                                 <a href="#"
@@ -536,7 +594,7 @@
                         <div class="col-md-4">
                             <h4 class="mb-5">About Company</h4>
                             <p>
-                                At HMK Event Planner, we specialize in creating
+                                At HMK Event Planing, we specialize in creating
                                 unforgettable moments for life's most cherished
                                 occasions. With a passion for detail and a
                                 commitment to excellence, we thrive on turning
